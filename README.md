@@ -1,6 +1,5 @@
 # Meridian Accounting_Restaurant_QBO_Guide
 Complete QuickBooks Online guide for restaurant bookkeeping - 50+ procedures, templates, and best practices
-# The Complete QuickBooks Online Guide for Restaurant Bookkeeping
 
 Document Date - November 29, 2025
 
@@ -89,11 +88,11 @@ Set up users with appropriate permissions:
 4070 - Gift Card Sales
 4080 - Service Charges
 4090 - Other Revenue
-```
+
 
 ### Cost of Goods Sold (5000-5999)
 
-```
+
 5000 - Food Purchases
 5010 - Beverage Purchases (Non-Alcoholic)
 5020 - Beer Purchases
@@ -103,11 +102,11 @@ Set up users with appropriate permissions:
 5050 - Cleaning Supplies (Kitchen)
 5060 - Kitchen Smallwares
 5070 - Inventory Shrinkage
-```
+
 
 ### Labor Costs (6000-6999)
 
-```
+
 6000 - Management Salaries
 6010 - Chef/Kitchen Manager Salaries
 6020 - Hourly Wages - Kitchen
@@ -118,11 +117,11 @@ Set up users with appropriate permissions:
 6070 - Workers Compensation
 6080 - Employee Benefits
 6090 - Employee Meals
-```
+
 
 ### Operating Expenses (7000-7999)
 
-```
+
 7000 - Rent
 7010 - Common Area Maintenance (CAM)
 7020 - Property Taxes
@@ -147,7 +146,7 @@ Set up users with appropriate permissions:
 7170 - Office Supplies
 7180 - Bank Fees
 7190 - Miscellaneous Expense
-```
+
 
 ---
 
@@ -173,16 +172,16 @@ Set up users with appropriate permissions:
    Line 2: Beverage Sales     $XXX.XX
    Line 3: Alcohol Sales      $XXX.XX
    Line 4: Sales Tax         $XXX.XX (as negative amount)
-   ```
+   
 
 4. **Record Payment Methods**
    - Deposit to: Undeposited Funds
    - Payment method breakdown:
-     ```
+     
      Cash:              $XXX.XX
      Credit Cards:      $X,XXX.XX
      Gift Cards:        $XXX.XX
-     ```
+     
 
 ### Daily Cash Reconciliation
 
@@ -202,11 +201,11 @@ Set up users with appropriate permissions:
 
 1. **Match POS Credit Card Total** to processor reports
 2. **Record Processing Fees**
-   ```
+   
    Journal Entry:
    Debit: Credit Card Processing Fees  $XXX.XX
    Credit: Merchant Account Clearing   $XXX.XX
-   ```
+   
 
 3. **Track Batch Timing**
    - Note cutoff times
@@ -221,7 +220,7 @@ Set up users with appropriate permissions:
 
 #### Credit Card Tips
 1. **Accrual Method**
-   ```
+   
    When earned:
    Debit: Tips Clearing Account
    Credit: Tips Payable
@@ -229,7 +228,7 @@ Set up users with appropriate permissions:
    When paid:
    Debit: Tips Payable
    Credit: Cash/Checking
-   ```
+   
 
 ---
 

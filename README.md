@@ -76,7 +76,7 @@ Set up users with appropriate permissions:
 
 ### Revenue Accounts (4000-4999)
 
-  
+```
 4000 - Food Sales
 4010 - Beverage Sales (Non-Alcoholic)
 4020 - Beer Sales
@@ -745,6 +745,7 @@ Successful restaurant bookkeeping requires daily attention to detail, consistent
 Remember: Good books lead to good decisions. Take the time to set up properly, train your team, and maintain consistent procedures. Your financial data will become one of your most valuable tools for managing and growing your restaurant.
 
 ---
+
 © 2024 - This guide is licensed under Creative Commons Attribution 4.0 International License. You are free to share and adapt this material with attribution.
 
 

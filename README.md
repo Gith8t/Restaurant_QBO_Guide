@@ -72,7 +72,9 @@ Set up users with appropriate permissions:
 
 ---
 
-## Chart of Accounts
+## Chart of Account
+
+---
 
 ### Revenue Accounts (4000-4999)
 

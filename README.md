@@ -18,7 +18,6 @@ Document Date - November 29, 2025
 11. [Integration Guide](#integration-guide)
 12. [Templates & Resources](#templates--resources)
 
----
 
 ## Introduction
 
@@ -35,7 +34,6 @@ This guide provides comprehensive QuickBooks Online (QBO) bookkeeping procedures
 - Basic understanding of restaurant operations
 - Access to your POS system reports
 
----
 
 ## Initial Setup
 
@@ -68,13 +66,11 @@ Set up users with appropriate permissions:
 - **Manager**: Reports only + create sales receipts
 - **Staff**: Time tracking only
 
----
 
 ## Chart of Accounts
 
 ### Revenue Accounts (4000-4999)
 
-```
 4000 - Food Sales
 4010 - Beverage Sales (Non-Alcoholic)
 4020 - Beer Sales
@@ -86,11 +82,9 @@ Set up users with appropriate permissions:
 4070 - Gift Card Sales
 4080 - Service Charges
 4090 - Other Revenue
-```
 
 ### Cost of Goods Sold (5000-5999)
 
-```
 5000 - Food Purchases
 5010 - Beverage Purchases (Non-Alcoholic)
 5020 - Beer Purchases
@@ -100,11 +94,9 @@ Set up users with appropriate permissions:
 5050 - Cleaning Supplies (Kitchen)
 5060 - Kitchen Smallwares
 5070 - Inventory Shrinkage
-```
 
 ### Labor Costs (6000-6999)
 
-```
 6000 - Management Salaries
 6010 - Chef/Kitchen Manager Salaries
 6020 - Hourly Wages - Kitchen
@@ -115,11 +107,9 @@ Set up users with appropriate permissions:
 6070 - Workers Compensation
 6080 - Employee Benefits
 6090 - Employee Meals
-```
 
 ### Operating Expenses (7000-7999)
 
-```
 7000 - Rent
 7010 - Common Area Maintenance (CAM)
 7020 - Property Taxes
@@ -144,9 +134,8 @@ Set up users with appropriate permissions:
 7170 - Office Supplies
 7180 - Bank Fees
 7190 - Miscellaneous Expense
-```
 
----
+
 
 ## Daily Operations
 
@@ -165,21 +154,21 @@ Set up users with appropriate permissions:
    - Date: Business date (not batch date)
 
 3. **Enter Sales by Category**
-   ```
+   
    Line 1: Food Sales         $X,XXX.XX
    Line 2: Beverage Sales     $XXX.XX
    Line 3: Alcohol Sales      $XXX.XX
    Line 4: Sales Tax         $XXX.XX (as negative amount)
-   ```
+   
 
 4. **Record Payment Methods**
    - Deposit to: Undeposited Funds
    - Payment method breakdown:
-     ```
+     
      Cash:              $XXX.XX
      Credit Cards:      $X,XXX.XX
      Gift Cards:        $XXX.XX
-     ```
+     
 
 ### Daily Cash Reconciliation
 
@@ -199,11 +188,11 @@ Set up users with appropriate permissions:
 
 1. **Match POS Credit Card Total** to processor reports
 2. **Record Processing Fees**
-   ```
+   
    Journal Entry:
    Debit: Credit Card Processing Fees  $XXX.XX
    Credit: Merchant Account Clearing   $XXX.XX
-   ```
+   
 
 3. **Track Batch Timing**
    - Note cutoff times
@@ -218,7 +207,7 @@ Set up users with appropriate permissions:
 
 #### Credit Card Tips
 1. **Accrual Method**
-   ```
+   
    When earned:
    Debit: Tips Clearing Account
    Credit: Tips Payable
@@ -226,7 +215,7 @@ Set up users with appropriate permissions:
    When paid:
    Debit: Tips Payable
    Credit: Cash/Checking
-   ```
+   
 
 ---
 
@@ -261,18 +250,17 @@ Set up users with appropriate permissions:
    + Purchases
    - Ending Inventory
    = Cost of Goods Used
-   ```
+   
 
 ### Calculating Food Cost Percentage
 
-```
+
 Food Cost % = (Food Cost / Food Sales) × 100
 
 Target Ranges:
 - Quick Service: 25-35%
 - Casual Dining: 28-35%
 - Fine Dining: 30-40%
-```
 
 ---
 
@@ -295,11 +283,11 @@ Target Ranges:
 For establishments with 10+ employees:
 - Must allocate if tips < 8% of gross receipts
 - Allocation formula:
-  ```
+  
   Gross Receipts × 8% = Total Tips Required
   - Reported Tips
   = Shortfall to Allocate
-  ```
+
 
 ### Overtime Calculations
 
@@ -314,27 +302,27 @@ Restaurant-specific considerations:
 
 ### Prime Cost
 
-```
+
 Prime Cost = COGS + Total Labor Cost
 Prime Cost % = (Prime Cost / Total Sales) × 100
 
 Target: 55-65%
-```
+
 
 ### Labor Cost Percentage
 
-```
+
 Labor Cost % = (Total Labor Cost / Total Sales) × 100
 
 Targets:
 - Quick Service: 20-30%
 - Full Service: 25-35%
 - Fine Dining: 30-40%
-```
+
 
 ### Per Person Average (PPA)
 
-```
+
 PPA = Total Sales / Number of Guests
 
 Track separately for:
@@ -342,18 +330,18 @@ Track separately for:
 - Dinner
 - Catering
 - Takeout/Delivery
-```
+
 
 ### Table Turnover
 
-```
+
 Table Turnover = Covers Served / Available Seats
 
 Targets:
 - Quick Service: 3-4x per meal period
 - Casual Dining: 2-3x per meal period
 - Fine Dining: 1-2x per meal period
-```
+
 
 ### Daily Dashboard Metrics
 
@@ -440,12 +428,12 @@ Create a custom report tracking:
 ### Weekly Reports
 
 1. **Prime Cost Report**
-   ```
+   
    Food Cost      $X,XXX    XX%
    Beverage Cost  $X,XXX    XX%
    Labor Cost     $X,XXX    XX%
    Prime Cost     $X,XXX    XX%
-   ```
+   
 
 2. **Sales Analysis**
    - By day of week
@@ -464,7 +452,7 @@ Create a custom report tracking:
    Theoretical Cost (from recipes)
    - Actual Cost (from inventory)
    = Variance to investigate
-   ```
+   
 
 ### Custom Reports to Create
 
@@ -585,7 +573,7 @@ Create a custom report tracking:
 ### Daily Templates
 
 1. **Daily Cash Reconciliation Sheet**
-   ```
+   
    Date: _______
    
    Starting Cash:          $_______
@@ -596,7 +584,7 @@ Create a custom report tracking:
    
    Actual Count:          $_______
    Over/(Short):          $_______
-   ```
+   
 
 2. **Daily Sales Entry Checklist**
    - [ ] Run POS reports
@@ -609,7 +597,7 @@ Create a custom report tracking:
 ### Weekly Templates
 
 1. **Weekly Prime Cost Calculator**
-   ```
+   
    Week Ending: _______
    
    Food Sales:            $_______
@@ -623,16 +611,16 @@ Create a custom report tracking:
    Total Labor:           $_______  ____%
    
    PRIME COST:            $_______  ____%
-   ```
+   
 
 2. **Inventory Count Sheet**
-   ```
+   
    Count Date: _______
    
    Item         Unit    Par    Count    Value
    ________     ____    ___    _____    $_____
    ________     ____    ___    _____    $_____
-   ```
+   
 
 ### Monthly Templates
 
@@ -648,7 +636,7 @@ Create a custom report tracking:
    - [ ] KPI dashboard updated
 
 2. **Restaurant P&L Template**
-   ```
+   
    REVENUE
    Food Sales                    $_______ ____%
    Beverage Sales               $_______ ____%
@@ -677,7 +665,7 @@ Create a custom report tracking:
    Total Operating           $_______ ____%
    
    EBITDA                    $_______ ____%
-   ```
+   
 
 ---
 

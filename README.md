@@ -89,7 +89,7 @@ Set up users with appropriate permissions:
 4070 - Gift Card Sales
 4080 - Service Charges
 4090 - Other Revenue
-```
+
 
 ### Cost of Goods Sold (5000-5999)
 
